@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Server
+Bundle-SymbolicName: com.kirtan.game.server
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.kirtan.game.server.Activator
+Bundle-Vendor: KIRTAN
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-19
+Automatic-Module-Name: com.kirtan.game.server
+Bundle-ActivationPolicy: lazy

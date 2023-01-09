@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Kirtan
+Bundle-SymbolicName: com.practice.kirtan;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: PRACTICE
+Require-Bundle: javax.inject,
+ org.eclipse.osgi,
+ org.eclipse.jface,
+ org.eclipse.e4.ui.services,
+ org.eclipse.e4.core.di.annotations
+Bundle-RequiredExecutionEnvironment: JavaSE-19
+Import-Package: javax.annotation;version="1.2.0"
+Automatic-Module-Name: com.practice.kirtan
