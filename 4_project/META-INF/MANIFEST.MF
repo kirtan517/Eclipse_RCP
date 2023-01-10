@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Browser
+Bundle-SymbolicName: com.kirtan.web.browser;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.kirtan.web.browser.Activator
+Bundle-Vendor: KIRTAN
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.views;bundle-version="3.11.300"
+Bundle-RequiredExecutionEnvironment: JavaSE-19
+Automatic-Module-Name: com.kirtan.web.browser
+Bundle-ActivationPolicy: lazy
