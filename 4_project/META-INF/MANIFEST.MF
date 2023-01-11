@@ -3,11 +3,14 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Browser
 Bundle-SymbolicName: com.kirtan.web.browser;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: com.kirtan.web.browser.Activator
+Import-Package: org.eclipse.e4.ui.bindings,
+ org.eclipse.equinox.launcher
+Bundle-Activator: com.kirtan.web.browser.BrowserActivator
 Bundle-Vendor: KIRTAN
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
- org.eclipse.ui.views;bundle-version="3.11.300"
+ org.apache.log4j;bundle-version="1.2.13";resolution:=optional,
+ org.eclipse.e4.ui.workbench;bundle-version="1.14.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-19
 Automatic-Module-Name: com.kirtan.web.browser
 Bundle-ActivationPolicy: lazy

@@ -22,11 +22,11 @@
                restorable="true">
          </view>
          <view
+               allowMultiple="true"
                class="com.kirtan.web.view.WebBrowserView"
                id="com.kirtan.web.view.WebBrowserView"
                name="Web Browser"
                restorable="true">
          </view>
    </extension>
-
 </plugin>

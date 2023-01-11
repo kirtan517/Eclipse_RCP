@@ -2,6 +2,7 @@ package com.kirtan.web.browser;
 
 import org.eclipse.ui.IPageLayout;
 
+
 import org.eclipse.ui.IPerspectiveFactory;
 
 import com.kirtan.web.view.BookMarkView;
@@ -15,8 +16,8 @@ public class Web_Browser implements IPerspectiveFactory {
 		String editorialArea = layout.getEditorArea();
 		layout.setEditorAreaVisible(false);
 		
-//		layout.addView(BookMarkView.ID, IPageLayout.LEFT,0.2f,editorialArea);
-		layout.addView(WebBrowserView.ID, IPageLayout.LEFT,0.8f,editorialArea);
+		layout.addView(BookMarkView.ID, IPageLayout.LEFT,0.5f,editorialArea);
+		layout.addView(WebBrowserView.ID, IPageLayout.LEFT,0.5f,editorialArea);
 	}
 
 }

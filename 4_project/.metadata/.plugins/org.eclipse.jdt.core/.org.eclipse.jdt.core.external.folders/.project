@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>/Users/kirtankanani/Desktop/Java/Eclipse_UI/4_project/org.osgi.annotation.versioning</location>
+		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>/Users/kirtankanani/Desktop/Java/Eclipse_UI/4_project/org.osgi.annotation.bundle</location>
+		</link>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>/Users/kirtankanani/Desktop/Java/Eclipse_UI/4_project/org.osgi.service.component.annotations</location>
+		</link>
+		<link>
+			<name>.link4</name>
+			<type>2</type>
+			<location>/Users/kirtankanani/Desktop/Java/Eclipse_UI/4_project/org.osgi.service.metatype.annotations</location>
+		</link>
+	</linkedResources>
+</projectDescription>
